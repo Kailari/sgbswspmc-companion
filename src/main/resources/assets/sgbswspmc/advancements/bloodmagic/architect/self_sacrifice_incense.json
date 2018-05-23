@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "bloodmagic:sacrificial_dagger",
+      "nbt": "{sacrifice:1b}"
+    },
+    "title": {
+      "translate": "advancements.bloodmagic.architect.self_sacrifice_incense.title"
+    },
+    "description": {
+      "translate": "advancements.bloodmagic.architect.self_sacrifice_incense.description"
+    },
+    "frame": "goal"
+  },
+  "parent": "sgbswspmc:bloodmagic/architect/sacrificial_dagger_incense",
+  "criteria": {
+    "sacrifice": {
+      "trigger": "sgbswspmc:bloodmagic_sacrifice_self",
+      "conditions": {
+        "incense": {
+          "min": 0.1
+        }
+      }
+    }
+  }
+}

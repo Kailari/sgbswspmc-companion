@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "bloodmagic:sacrificial_dagger"
+    },
+    "title": {
+      "translate": "advancements.bloodmagic.architect.self_sacrifice.title"
+    },
+    "description": {
+      "translate": "advancements.bloodmagic.architect.self_sacrifice.description"
+    },
+    "frame": "task"
+  },
+  "parent": "sgbswspmc:bloodmagic/architect/sacrificial_dagger",
+  "criteria": {
+    "sacrifice": {
+      "trigger": "sgbswspmc:bloodmagic_sacrifice_self"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "bloodmagic:soul_snare"
+    },
+    "title": {
+      "translate": "advancements.bloodmagic.demon.snare.title"
+    },
+    "description": {
+      "translate": "advancements.bloodmagic.demon.snare.description"
+    },
+    "frame": "task"
+  },
+  "parent": "sgbswspmc:bloodmagic/root",
+  "criteria": {
+    "block_placed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bloodmagic:soul_snare"
+          }
+        ]
+      }
+    }
+  }
+}

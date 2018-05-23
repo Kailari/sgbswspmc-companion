@@ -1,0 +1,15 @@
+[
+{
+  "modid": "sgbswspmc",
+  "name": "SGBSWSPMC Companion Mod",
+  "description": "Companion mod for the modpack. Adds some tweaks and features which could not be added conveniently otherwise",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["DownbeatCoder"],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

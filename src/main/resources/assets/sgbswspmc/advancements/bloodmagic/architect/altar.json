@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "bloodmagic:altar"
+    },
+    "title": {
+      "translate": "advancements.bloodmagic.architect.altar.title"
+    },
+    "description": {
+      "translate": "advancements.bloodmagic.architect.altar.description"
+    },
+    "frame": "task"
+  },
+  "parent": "sgbswspmc:bloodmagic/demon/will",
+  "criteria": {
+    "block_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "bloodmagic:altar"
+      }
+    }
+  }
+}

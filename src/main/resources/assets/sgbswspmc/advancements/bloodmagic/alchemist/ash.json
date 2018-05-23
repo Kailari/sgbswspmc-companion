@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "bloodmagic:arcane_ashes"
+    },
+    "title": {
+      "translate": "advancements.bloodmagic.alchemist.ash.title"
+    },
+    "description": {
+      "translate": "advancements.bloodmagic.alchemist.ash.description"
+    },
+    "frame": "task"
+  },
+  "parent": "sgbswspmc:bloodmagic/demon/forge",
+  "criteria": {
+    "block_placed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bloodmagic:arcane_ashes"
+          }
+        ]
+      }
+    }
+  }
+}

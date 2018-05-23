@@ -1,0 +1,50 @@
+advancements.bloodmagic.root.title=A very interesting journal
+advancements.bloodmagic.root.description=Obtain the journal of the Blood Mages
+
+advancements.bloodmagic.architect.altar.title=In footsteps of the Architect
+advancements.bloodmagic.architect.altar.description=Build the Blood Altar
+advancements.bloodmagic.architect.orb_weak.title=Might still be weak, but it's something
+advancements.bloodmagic.architect.orb_weak.description=Create a Weak Blood Orb using the Blood Altar
+advancements.bloodmagic.architect.orb_apprentice.title=Sacrificing for an upgrade
+advancements.bloodmagic.architect.orb_apprentice.description=Upgrade your altar to tier II and create an Apprentice Blood Orb
+advancements.bloodmagic.architect.orb_magician.title=See, sacrifice. That's the price of a good trick.
+advancements.bloodmagic.architect.orb_magician.description=Upgrade your altar to tier III and create a Magician Blood Orb
+advancements.bloodmagic.architect.orb_master.title=Mastering the arts
+advancements.bloodmagic.architect.orb_master.description=Upgrade your altar to tier IV and create a Master Blood Orb
+advancements.bloodmagic.architect.orb_archmage.title=Archmage
+advancements.bloodmagic.architect.orb_archmage.description=Reach maximum tier blood altar and convert a nether star into an Archmage Blood Orb
+advancements.bloodmagic.architect.orb_transcendent.title=Overleveled to +1
+advancements.bloodmagic.architect.orb_transcendent.description=How?
+advancements.bloodmagic.architect.sacrificial_dagger.title=It's a dagger
+advancements.bloodmagic.architect.sacrificial_dagger.description=Craft a sacrificial dagger for performing sacrifice at the altar
+advancements.bloodmagic.architect.self_sacrifice.title=Just a prick of the finger will suffice
+advancements.bloodmagic.architect.self_sacrifice.description=Using your Sacrificial Dagger, sacrifice Life Power to the altar
+advancements.bloodmagic.architect.sacrificial_dagger_incense.title=It's calm...
+advancements.bloodmagic.architect.sacrificial_dagger_incense.description=Calm at the tranquility of the Incense Altar
+advancements.bloodmagic.architect.self_sacrifice_incense.title=...before the storm
+advancements.bloodmagic.architect.self_sacrifice_incense.description=After calming at the Incense Altar, perform a sacrifice for increased yield
+advancements.bloodmagic.architect.incense_altar.title=A tranquil place
+advancements.bloodmagic.architect.incense_altar.description=Build the Incense Altar for improving efficiency of sacrificing self
+advancements.bloodmagic.architect.dagger_of_sacrifice.title=Things take a turn for something far more sinister
+advancements.bloodmagic.architect.dagger_of_sacrifice.description=Use your tier II altar to forge The Dagger of Sacrifice
+
+
+advancements.bloodmagic.demon.snare.title=Replicating experiments of the Demon Kin
+advancements.bloodmagic.demon.snare.description=Craft a rudimentary snare for obtaining Demonic Will
+advancements.bloodmagic.demon.will.title=A piece of something mighty
+advancements.bloodmagic.demon.will.description=Severe a monster's connection to its master's will and slay it
+advancements.bloodmagic.demon.forge.title=Forging with Hellfire
+advancements.bloodmagic.demon.forge.description=Build a Hellfire Forge
+advancements.bloodmagic.demon.gem_petty.title=Containing the Will
+advancements.bloodmagic.demon.gem_petty.description=Create a Petty Tartaric Gem using the Hellfire Forge
+advancements.bloodmagic.demon.gem_lesser.title=No pity for petty
+advancements.bloodmagic.demon.gem_lesser.description=Upgrade a Petty Tartaric Gem to a Lesser Tartaric Gem
+advancements.bloodmagic.demon.gem_common.title=My will is getting strong
+advancements.bloodmagic.demon.gem_common.description=Upgrade a Lesser Tartaric Gem to a Common Tartaric Gem
+advancements.bloodmagic.demon.gem_greater.title=Ok, now I'm just showing off
+advancements.bloodmagic.demon.gem_greater.description=Upgrade a Common Tartaric Gem to a Greater Tartaric Gem
+advancements.bloodmagic.demon.gem_grand.title=I think an entire demon fits in there
+advancements.bloodmagic.demon.gem_grand.description=Upgrade a Greater Tartaric Gem to a Grand Tartaric Gem
+
+advancements.bloodmagic.alchemist.ash.title=Novice Alchemist
+advancements.bloodmagic.alchemist.ash.description=Use the hellfire forge to obtain arcane ashes

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "bloodmagic:monster_soul"
+    },
+    "title": {
+      "translate": "advancements.bloodmagic.demon.will.title"
+    },
+    "description": {
+      "translate": "advancements.bloodmagic.demon.will.description"
+    },
+    "frame": "task"
+  },
+  "parent": "sgbswspmc:bloodmagic/demon/snare",
+  "criteria": {
+    "block_placed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bloodmagic:monster_soul"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven { url = "http://files.minecraftforge.net/maven" }
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
+    }
+}
+apply plugin: 'net.minecraftforge.gradle.forge'
+
+
+version = "${mod_version}"
+group = "${group_prefix}.${modid}"
+archivesBaseName = "${modid}"
+
+sourceCompatibility = targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
+compileJava {
+    sourceCompatibility = targetCompatibility = '1.8'
+}
+
+minecraft {
+    version = "${mc_version}-${forge_version}"
+    runDir = "run"
+    mappings = "${mcp_mappings}"
+    clientRunArgs += "--username=${dev_username}"
+
+    // Replace info in ModInfo.java
+    replace "__VERSION", project.version
+}
+
+repositories {
+    // Blood Magic
+    maven {
+        name "TehNut Repository"
+        url "http://tehnut.info/maven"
+    }
+}
+
+dependencies {
+    deobfCompile group: "info.amerifrance.guideapi", name: "Guide-API", version: "${mc_major}-${guideapi_version}"
+    deobfCompile group: "com.wayoftime.bloodmagic", name: "BloodMagic", version: "${mc_version}-${bloodmagic_version}"
+}
+
+processResources {
+    // this will ensure that this task is redone when the versions change.
+    inputs.property "version", project.version
+    inputs.property "mcversion", project.minecraft.version
+
+    // replace stuff in mcmod.info, nothing else
+    from(sourceSets.main.resources.srcDirs) {
+        include 'mcmod.info'
+
+        // replace version and mcversion
+        expand 'version': project.version, 'mcversion': project.minecraft.version
+    }
+
+    // copy everything else except the mcmod.info
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'mcmod.info'
+    }
+}

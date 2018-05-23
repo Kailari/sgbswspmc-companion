@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "bloodmagic:soul_gem",
+      "data": 1
+    },
+    "title": {
+      "translate": "advancements.bloodmagic.demon.gem_lesser.title"
+    },
+    "description": {
+      "translate": "advancements.bloodmagic.demon.gem_lesser.description"
+    },
+    "frame": "task"
+  },
+  "parent": "sgbswspmc:bloodmagic/demon/gem_petty",
+  "criteria": {
+    "block_placed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bloodmagic:soul_gem",
+            "data": 1
+          }
+        ]
+      }
+    }
+  }
+}

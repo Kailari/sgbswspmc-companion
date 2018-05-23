@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "bloodmagic:sacrificial_dagger"
+    },
+    "title": {
+      "translate": "advancements.bloodmagic.architect.sacrificial_dagger.title"
+    },
+    "description": {
+      "translate": "advancements.bloodmagic.architect.sacrificial_dagger.description"
+    },
+    "frame": "task"
+  },
+  "parent": "sgbswspmc:bloodmagic/architect/altar",
+  "criteria": {
+    "dagger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bloodmagic:sacrificial_dagger"
+          }
+        ]
+      }
+    }
+  }
+}

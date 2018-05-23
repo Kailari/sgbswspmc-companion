@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "bloodmagic:soul_gem",
+      "data": 0
+    },
+    "title": {
+      "translate": "advancements.bloodmagic.demon.gem_petty.title"
+    },
+    "description": {
+      "translate": "advancements.bloodmagic.demon.gem_petty.description"
+    },
+    "frame": "task"
+  },
+  "parent": "sgbswspmc:bloodmagic/demon/forge",
+  "criteria": {
+    "block_placed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bloodmagic:soul_gem",
+            "data": 0
+          }
+        ]
+      }
+    }
+  }
+}

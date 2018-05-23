@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "bloodmagic:incense_altar"
+    },
+    "title": {
+      "translate": "advancements.bloodmagic.architect.incense_altar.title"
+    },
+    "description": {
+      "translate": "advancements.bloodmagic.architect.incense_altar.description"
+    },
+    "frame": "task"
+  },
+  "parent": "sgbswspmc:bloodmagic/architect/self_sacrifice",
+  "criteria": {
+    "block_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "bloodmagic:incense_altar"
+      }
+    }
+  }
+}

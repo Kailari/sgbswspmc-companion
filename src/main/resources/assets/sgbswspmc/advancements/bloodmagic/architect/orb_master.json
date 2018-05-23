@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "bloodmagic:blood_orb",
+      "nbt": "{orb:\"bloodmagic:master\"}"
+    },
+    "title": {
+      "translate": "advancements.bloodmagic.architect.orb_master.title"
+    },
+    "description": {
+      "translate": "advancements.bloodmagic.architect.orb_master.description"
+    },
+    "frame": "task"
+  },
+  "parent": "sgbswspmc:bloodmagic/architect/orb_magician",
+  "criteria": {
+    "orb_crafted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bloodmagic:blood_orb",
+            "nbt": "{orb:\"bloodmagic:master\"}"
+          }
+        ]
+      }
+    }
+  }
+}

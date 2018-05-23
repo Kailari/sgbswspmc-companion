@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "bloodmagic:sacrificial_dagger",
+      "nbt": "{sacrifice:1b}"
+    },
+    "title": {
+      "translate": "advancements.bloodmagic.architect.sacrificial_dagger_incense.title"
+    },
+    "description": {
+      "translate": "advancements.bloodmagic.architect.sacrificial_dagger_incense.description"
+    },
+    "frame": "task"
+  },
+  "parent": "sgbswspmc:bloodmagic/architect/incense_altar",
+  "criteria": {
+    "dagger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bloodmagic:sacrificial_dagger",
+            "nbt": "{sacrifice:1b}"
+          }
+        ]
+      }
+    }
+  }
+}

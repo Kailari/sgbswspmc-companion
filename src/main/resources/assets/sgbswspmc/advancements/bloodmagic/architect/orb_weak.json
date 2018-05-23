@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "bloodmagic:blood_orb",
+      "nbt": "{orb:\"bloodmagic:weak\"}"
+    },
+    "title": {
+      "translate": "advancements.bloodmagic.architect.orb_weak.title"
+    },
+    "description": {
+      "translate": "advancements.bloodmagic.architect.orb_weak.description"
+    },
+    "frame": "task"
+  },
+  "parent": "sgbswspmc:bloodmagic/architect/altar",
+  "criteria": {
+    "orb_crafted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bloodmagic:blood_orb",
+            "nbt": "{orb:\"bloodmagic:weak\"}"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "bloodmagic:dagger_of_sacrifice"
+    },
+    "title": {
+      "translate": "advancements.bloodmagic.architect.dagger_of_sacrifice.title"
+    },
+    "description": {
+      "translate": "advancements.bloodmagic.architect.dagger_of_sacrifice.description"
+    },
+    "frame": "task"
+  },
+  "parent": "sgbswspmc:bloodmagic/architect/orb_apprentice",
+  "criteria": {
+    "dagger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bloodmagic:dagger_of_sacrifice"
+          }
+        ]
+      }
+    }
+  }
+}

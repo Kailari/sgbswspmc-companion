@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "bloodmagic:soul_forge"
+    },
+    "title": {
+      "translate": "advancements.bloodmagic.demon.forge.title"
+    },
+    "description": {
+      "translate": "advancements.bloodmagic.demon.forge.description"
+    },
+    "frame": "task"
+  },
+  "parent": "sgbswspmc:bloodmagic/demon/will",
+  "criteria": {
+    "block_placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "bloodmagic:soul_forge"
+      }
+    }
+  }
+}

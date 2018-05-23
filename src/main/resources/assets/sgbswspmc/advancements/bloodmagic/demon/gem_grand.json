@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "bloodmagic:soul_gem",
+      "data": 4
+    },
+    "title": {
+      "translate": "advancements.bloodmagic.demon.gem_grand.title"
+    },
+    "description": {
+      "translate": "advancements.bloodmagic.demon.gem_grand.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "sgbswspmc:bloodmagic/demon/gem_greater",
+  "criteria": {
+    "block_placed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bloodmagic:soul_gem",
+            "data": 4
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "bloodmagic:blood_orb",
+      "nbt": "{orb:\"bloodmagic:transcendent\"}"
+    },
+    "title": {
+      "translate": "advancements.bloodmagic.architect.orb_transcendent.title"
+    },
+    "description": {
+      "translate": "advancements.bloodmagic.architect.orb_transcendent.description"
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "sgbswspmc:bloodmagic/architect/orb_archmage",
+  "criteria": {
+    "orb_crafted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bloodmagic:blood_orb",
+            "nbt": "{orb:\"bloodmagic:transcendent\"}"
+          }
+        ]
+      }
+    }
+  }
+}
